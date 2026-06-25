@@ -50,7 +50,8 @@ background-color: rgb(179, 240, 236);
 
     function buttonClicado () {
     console.log("fui clicado")
-    let texto = button
+    let texto = button.querySelector("span");
+    texto.textContent++;
 
     }
 </script>
