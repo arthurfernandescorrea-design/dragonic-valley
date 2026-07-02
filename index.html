@@ -32,6 +32,7 @@ background-color: rgb(179, 240, 236);
    <p>um site dedicado a dragões e meu amor por eles!</p>  
     </header>
      <main>
+        <article>
 <img src="=.jpeg" alt="icone de dragão olhando pra frente">
 
 <div
@@ -39,21 +40,24 @@ background-color: rgb(179, 240, 236);
         <p>feito por arthur</p>
         <p>boas vindas ao meu site!!</p>
             <button>🐉​ <span>0</span></button>
+            <button>🌖​​ <span>0</span></button>
      </div>
+     </article>
      </main>
 </body>
 
 <script>
 
     const button = document. querySelector("button");
+    button.forEach(function(button){
     button.addEventListener("click", buttonClicado);
 
     function buttonClicado () {
     console.log("fui clicado")
     let texto = button.querySelector("span");
     texto.textContent++;
-
-    }
+}
+    });
 </script>
 
 </html>
