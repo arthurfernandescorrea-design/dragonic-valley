@@ -48,15 +48,16 @@ background-color: rgb(229, 203, 119);
 
 <script>
 
-    const button = document. querySelector("button");
-    button.forEach(function(button){
-    button.addEventListener("click", buttonClicado);
+    const button = document. querySelectorAll("button");
+    
+    button.forEach(function(botao){
+        botao.addEventListener("click", buttonClicado);
 
-    function buttonClicado () {
-    console.log("fui clicado")
-    let texto = button.querySelector("span");
-    texto.textContent++;
-}
+        function buttonClicado () {
+            console.log("fui clicado")
+            let texto = button.querySelector("span");
+            texto.textContent++;
+        }
     });
 </script>
 
