@@ -1,3 +1,11 @@
+         :root{
+--cor-primaria: #bd71e1;
+--cor-secundaria: rgb(255, 232, 130);
+--cor-fundo: #71bde1;
+--cor-texto: #71e1ab;
+--cor-contraste: #e18271;
+--cor-button: #ffff;
+         }
         header {
             background-color: wheat;
             color: rgb(185, 137, 229);
