@@ -1,2 +1,2 @@
 # dragonic-valley
-o quão misteriosos os dragões são? quais são os seus segredos? oque eles fazem e buscam? vamos desvendar e descobrir!
+hatsune miku, a vocaloid mais famosa do mundo. Neste site falaremos sobre ela as músicas dela e como o pet dela é o godzila.
